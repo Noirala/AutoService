@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:AutoService"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#ff9c1a"/>
+        </Style>
     </Application.Resources>
 </Application>
